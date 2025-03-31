@@ -13,18 +13,18 @@
 
 
 :root {
-    --tab-font: 'Space Grotesk';
-    --urlbar-font: 'Space Grotesk';
+    /* --tab-font: 'Space Grotesk'; */
+    /* --urlbar-font: 'Space Grotesk'; */
     
 /* ------------ Tab Font Size ------------ */
 #TabsToolbar, .tabbrowser-tab {
-	font-size: 15px !important;
+	/* font-size: 15px !important; */
 }
 
 /* ------------ URL Bar Font Size ------------ */ 
 #urlbar-container {
 	--urlbar-container-height: var(--urlbar-height-setting) !important;
-	font-size: 14px;
+	/* font-size: 14px; */
 }
 
     /* try increasing or decreasing one of these two if you encounter overlap between tab and url bar */
@@ -123,7 +123,7 @@ toolbar .toolbarbutton-1 { padding: 0 0 !important; }
 	margin-right: 0 !important;
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
-	font-family: var(--urlbar-font, 'monospace');
+	/* font-family: var(--urlbar-font, 'monospace'); */
 }
 
 #urlbar {
@@ -324,7 +324,7 @@ findbar::after{
 #unified-extensions-view:before{
   content: "Extensions";
   text-align: left !important;
-  font-weight: bold !important;
+  /* font-weight: bold !important; */
   padding-top: 9px !important;
   padding-bottom: 4px !important;
   padding-left: 14px !important;
@@ -401,7 +401,7 @@ findbar::after{
 
 tab {
 	font-family: var(--tab-font, monospace);
-	font-weight: bold;
+	/* font-weight: bold; */
 	border: none !important;
 	padding-top: 0 !important;
 }
